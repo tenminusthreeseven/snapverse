@@ -1,29 +1,28 @@
 const Navbar = () =>{
-    return (
-< nav className="w-screen bg-black text-4xl font-bold flex items-center">
-<h1 className="text-5xl text-cyan-50 font-bold">
-    snapverse
-</h1>
+    return(
+        <div className="w-screen bg-black text-amber-300 flex items-center justify-between px-8 py-4">
 
-<div className="flex gap-4">
-    <button className="hover:text-cyan-400">
-        feed
-    </button>
 
-    <button className="bg-cyan-500 text-blue-50 py-2">
-sign up
-    </button>
-
-    <button className="border border-amber-50 px-4 py-2 rounded-lg">
-        sign in
-    </button>
-</div>
+            <h1 className=" text-5xl font-bold font-mono">
+                Snapverse
+            </h1>
 
 
 
+            <div className=" flex gap-4 ">
+                <button className="text-2xl text-amber-50  ">
+                    feed
+                </button>
 
-</nav>
 
+                <button className=" text-2xl text-amber-50 ">
+Login
+                </button>
+                <button className="text-2xl text-amber-50">
+                    sign up
+                </button>
+            </div>
+        </div>
     )
 };
 export default Navbar;

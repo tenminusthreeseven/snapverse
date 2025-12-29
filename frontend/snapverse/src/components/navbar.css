@@ -1,0 +1,10 @@
+.snapverse{
+    font-size:xx-large;
+    font-variant-caps: petite-caps;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button{
+  border: 1ch;
+  padding-left: 90px;
+}
